@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- navbar.js -->
+    <script src="./navbar.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Dance Home Page</title>
 </head>
@@ -21,13 +23,30 @@
             <div class="column-2">
                 <nav>
                     <div class="line"></div>
-    
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#">Home</a>
-                        <li class="nav-item"><a href="#">About Us</a>
-                        <li class="nav-item"><a href="#">Portfolio</a>
-                        <li class="nav-item"><a href="#">Contact</a>
-                    </ul>
+                    
+                    <!-- Primary Nav Menu -->
+                    <div class="nav-menu">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#">Home</a>
+                            <li class="nav-item"><a href="#">About Us</a>
+                            <li class="nav-item"><a href="#">Portfolio</a>
+                            <li class="nav-item"><a href="#">Contact</a>
+                        </ul>
+                    </div>
+
+                    <!-- Hamburger Menu -->
+                    <a href="#" class="ham-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </a>
+
+                    <!-- X mark -->
+                    <a href="#" class="x-mark">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>                          
+                    </a>
                 </nav>
     
                 <!-- Intro Section -->
@@ -61,7 +80,7 @@
                             <img src="./assets/quotes.png" alt="" class="quotes">
                             <p class="intro-para-2">We help you to create the best graphics, photos, videos, animations and illustrations</p>
                             <div class="intro-image">
-                                <img src="./pexels-cottonbro-7974875.jpg" alt="">
+                                <img src="./images/pexels-cottonbro-7974875.jpg" alt="">
                             </div>
                         </div>
                     </div>
